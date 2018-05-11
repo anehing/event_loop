@@ -1,8 +1,5 @@
 # EventLoop
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/event_loop`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+基于IO.select的一个纯ruby实现的任务调度工具，代码简洁，并发性能也不错。
 
 ## Installation
 
@@ -33,8 +30,8 @@ Or install it yourself as:
   @event_loop.run
 end
 ```
-## 描述
-使用IO.select作为阻塞方案,如果队里为空就用IO.select先阻塞.
+
+
 
 ## Development
 
